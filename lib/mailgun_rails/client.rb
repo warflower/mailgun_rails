@@ -25,7 +25,7 @@ module MailgunRails
     end
 
     def api_url
-      "https://api:#{api_key}@api.mailgun.net/v3/#{domain}"
+      "https://api:#{api_key}@api.eu.mailgun.net/v3/#{domain}"
     end
   end
 end
